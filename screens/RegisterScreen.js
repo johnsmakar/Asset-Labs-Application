@@ -50,7 +50,7 @@ const RegisterScreen = ({navigation}) => {
 
         var res = JSON.parse(await response.text());
         console.log(JSON.stringify(res));
-        setMessage("Successfully Registered!");
+        setMessage("Successfully Registered !");
         navigation.push('LoginScreen');
       }
 
